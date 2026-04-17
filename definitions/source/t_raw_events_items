@@ -1,5 +1,8 @@
 config {
     type: "table",
+    tags: ["source"],    
+    schema: "source_GA4",
+    name: "t_raw_events",
     columns: {
         test: "Place holder for later documentatio",
     }
